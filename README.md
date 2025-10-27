@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Pooja App - Veidc Pandit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and includes:
+
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Beautiful and accessible UI components
+- **TypeScript** - Type-safe JavaScript
 
 ## Available Scripts
 
@@ -43,4 +47,34 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+## Using shadcn/ui Components
+
+This project is set up with shadcn/ui. To add new components:
+
+1. Visit [shadcn/ui](https://ui.shadcn.com/) and browse the components
+2. Click on a component you want to use
+3. Copy the installation command (the component will be automatically added to your project)
+
+Example:
+
+```bash
+npx shadcn@latest add button
+```
+
+### Example Usage
+
+```tsx
+import { Button } from "@/components/ui/button";
+
+function MyComponent() {
+  return <Button variant="default">Click me</Button>;
+}
+```
+
+## Learn More
+
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+To learn Tailwind CSS, visit the [Tailwind CSS documentation](https://tailwindcss.com/docs).
+
+To explore shadcn/ui components, visit [ui.shadcn.com](https://ui.shadcn.com/).

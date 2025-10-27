@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Header } from "@/components/Header";
+import { Hero } from "./components/Hero";
+import { QuickCategories } from "./components/QuickCategories";
+import { FeaturedPoojas } from "./components/FeaturedPoojas";
+import { FeaturesSection } from "./components/FeaturesSection";
+import { PanditsSection } from "./components/PanditsSection";
+import { HowItWorksSection } from "./components/HowItWorksSection";
+import { TestimonialsSection } from "./components/TestimonialsSection";
+import { FestivalsSection } from "./components/FestivalsSection";
+import { CTASection } from "./components/CTASection";
+import { Footer } from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main>
+        <Hero />
+        <QuickCategories />
+        <FeaturedPoojas />
+        <FeaturesSection />
+        <PanditsSection />
+        <HowItWorksSection />
+        <TestimonialsSection />
+        <FestivalsSection />
+        <CTASection />
+      </main>
+      <Footer />
     </div>
   );
 }
-
-export default App;
