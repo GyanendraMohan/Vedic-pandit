@@ -3,7 +3,10 @@ import { Phone, Mail, MessageCircle } from "lucide-react";
 
 export function CTASection() {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-orange-600 via-amber-600 to-red-700 text-white relative overflow-hidden">
+    <section
+      id="contact"
+      className="py-20 bg-gradient-to-br from-orange-600 via-amber-600 to-red-700 text-white relative overflow-hidden"
+    >
       {/* Decorative Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 h-72 w-72 rounded-full bg-white/10 blur-3xl"></div>
@@ -26,22 +29,23 @@ export function CTASection() {
 
           {/* Description */}
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-2xl mx-auto">
-            Book your pooja today and invite peace, prosperity, and spiritual fulfillment into your life.
+            Book your pooja today and invite peace, prosperity, and spiritual
+            fulfillment into your life.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="gap-2 bg-white text-orange-600 hover:bg-gray-100 shadow-lg text-lg px-8 py-6 font-semibold"
             >
               <Phone className="h-5 w-5" />
               Call Now +91 98765 43210
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="gap-2 border-2 border-white text-white hover:bg-white/10 text-lg px-8 py-6 font-semibold"
+            <Button
+              size="lg"
+              variant="outline"
+              className="gap-2 border-2 border-white text-slate-600 hover:bg-white/10 text-lg px-8 py-6 font-semibold"
             >
               <MessageCircle className="h-5 w-5" />
               WhatsApp Us
@@ -71,4 +75,3 @@ export function CTASection() {
     </section>
   );
 }
-

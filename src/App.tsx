@@ -1,14 +1,14 @@
 import { Header } from "@/components/Header";
-import { Hero } from "./components/Hero";
-import { QuickCategories } from "./components/QuickCategories";
-import { FeaturedPoojas } from "./components/FeaturedPoojas";
-import { FeaturesSection } from "./components/FeaturesSection";
-import { PanditsSection } from "./components/PanditsSection";
-import { HowItWorksSection } from "./components/HowItWorksSection";
-import { TestimonialsSection } from "./components/TestimonialsSection";
-import { FestivalsSection } from "./components/FestivalsSection";
-import { CTASection } from "./components/CTASection";
-import { Footer } from "./components/Footer";
+import { Hero } from "@/components/Hero";
+import { QuickCategories } from "@/components/QuickCategories";
+import { FeaturedPoojas } from "@/components/FeaturedPoojas";
+import { FeaturesSection } from "@/components/FeaturesSection";
+import { PanditProfiles } from "@/components/PanditProfiles";
+import { HowItWorksSection } from "@/components/HowItWorksSection";
+import { TestimonialsSection } from "@/components/TestimonialsSection";
+import { FestivalsSection } from "@/components/FestivalsSection";
+import { CTASection } from "@/components/CTASection";
+import { Footer } from "@/components/Footer";
 
 export default function App() {
   return (
@@ -19,7 +19,7 @@ export default function App() {
         <QuickCategories />
         <FeaturedPoojas />
         <FeaturesSection />
-        <PanditsSection />
+        <PanditProfiles />
         <HowItWorksSection />
         <TestimonialsSection />
         <FestivalsSection />
